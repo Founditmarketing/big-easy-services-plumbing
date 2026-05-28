@@ -169,7 +169,7 @@ const HomePage = () => {
     <>
       <SEOHead
         title="Licensed Master Plumber"
-        description="Big Easy Services Plumbing — Licensed Master Plumber & Natural Gas Fitter serving Greater New Orleans since 2005. 24/7 emergency plumbing, gas line fitting, drain cleaning. Woman-owned. Call (504) 301-2052."
+        description="Big Easy Services Plumbing — Licensed Master Plumber serving Greater New Orleans since 2005. Plumbing, directional boring, and utility work. Woman-owned. Call (504) 301-2052."
         canonical="https://bigeasyservicesplumbing.com/"
         jsonLd={[generateLocalBusinessSchema(), generateAggregateRatingSchema()]}
       />

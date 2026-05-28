@@ -171,17 +171,10 @@ const ServiceDetailPage = () => {
           </p>
 
           {/* CTA */}
-          {slug === 'emergency-service' ? (
-            <a href="tel:5043012052" className="btn-primary">
-              <Phone size={18} />
-              Call Now — (504) 301-2052
-            </a>
-          ) : (
-            <Link to="/contact" className="btn-primary">
-              {service.ctaText}
-              <ArrowRight size={18} />
-            </Link>
-          )}
+          <Link to="/contact" className="btn-primary">
+            {service.ctaText}
+            <ArrowRight size={18} />
+          </Link>
         </div>
       </section>
 

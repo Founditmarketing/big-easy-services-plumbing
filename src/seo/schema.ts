@@ -18,7 +18,7 @@ export function generateLocalBusinessSchema() {
     name: BRAND_INFO.dba,
     legalName: BRAND_INFO.legalEntity,
     description:
-      'Licensed Master Plumber & Natural Gas Fitter serving Greater New Orleans since 2005. 24/7 emergency plumbing, gas line fitting, drain cleaning, standby generator connections, and commercial services. Woman-owned & family-operated.',
+      'Licensed Master Plumber serving Greater New Orleans since 2005. Plumbing, directional boring, utility work, and gas line fitting. Woman-owned & family-operated.',
     url: DOMAIN,
     telephone: '+15043012052',
     email: 'info@big-ez.com',
@@ -64,16 +64,17 @@ export function generateLocalBusinessSchema() {
       identifier: lic.number,
     })),
     knowsAbout: [
+      'Plumbing',
       'Residential Plumbing',
       'Commercial Plumbing',
+      'Directional Boring',
+      'Horizontal Directional Drilling',
+      'Utility Work',
+      'Underground Utility Installation',
       'Gas Line Fitting',
-      'Natural Gas Fitting',
-      'Standby Generator Connections',
-      'Emergency Plumbing',
-      'Drain Cleaning',
-      'Sewer Line Repair',
-      'Backflow Prevention Testing',
-      'Water Heater Installation',
+      'Sewer Line Construction',
+      'Water Main Installation',
+      'Stormwater Drainage',
     ],
   };
 }

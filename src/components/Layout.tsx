@@ -15,10 +15,8 @@ import {
   Star,
   ChevronDown,
   Droplets,
-  Building2,
-  Flame,
-  Zap,
-  Clock,
+  Drill,
+  HardHat,
 } from 'lucide-react';
 
 // ============================================
@@ -63,12 +61,9 @@ function Navbar() {
   ];
 
   const serviceLinks = [
-    { to: '/services/residential-plumbing', label: 'Residential Plumbing', icon: Droplets, color: '#3B82F6' },
-    { to: '/services/commercial-services', label: 'Commercial Services', icon: Building2, color: '#0D5CDE' },
-    { to: '/services/gas-line-fitting', label: 'Gas Line & Fitting', icon: Flame, color: '#F59E0B' },
-    { to: '/services/standby-generators', label: 'Standby Generators', icon: Zap, color: '#059669' },
-    { to: '/services/emergency-service', label: '24/7 Emergency', icon: Clock, color: '#DC2626' },
-    { to: '/services/drain-cleaning', label: 'Drain Cleaning', icon: Wrench, color: '#7C3AED' },
+    { to: '/services/plumbing', label: 'Plumbing', icon: Droplets, color: '#3B82F6' },
+    { to: '/services/directional-boring', label: 'Directional Boring', icon: Drill, color: '#F59E0B' },
+    { to: '/services/utility-work', label: 'Utility Work', icon: HardHat, color: '#059669' },
   ];
 
   const isActive = (to: string) => {
@@ -383,12 +378,9 @@ function Footer() {
           <div>
             <h4 style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, color: 'white', fontSize: '0.9375rem', marginBottom: '1rem' }}>Services</h4>
             {[
-              { to: '/services/residential-plumbing', label: 'Residential Plumbing' },
-              { to: '/services/gas-line-fitting', label: 'Gas Line Fitting' },
-              { to: '/services/standby-generators', label: 'Standby Generators' },
-              { to: '/services/commercial-services', label: 'Commercial Plumbing' },
-              { to: '/services/drain-cleaning', label: 'Drain Cleaning' },
-              { to: '/services/emergency-service', label: 'Emergency Service' },
+              { to: '/services/plumbing', label: 'Plumbing' },
+              { to: '/services/directional-boring', label: 'Directional Boring' },
+              { to: '/services/utility-work', label: 'Utility Work' },
             ].map((svc) => (
               <Link
                 key={svc.to}

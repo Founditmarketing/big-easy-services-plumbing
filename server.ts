@@ -143,12 +143,10 @@ Here is a pre-optimized premium copywriting template for your review:
       // Service type labels
       const serviceLabels: Record<string, string> = {
         emergency: '🚨 Emergency Repair',
+        plumbing: '🔧 Plumbing',
+        boring: '🔩 Directional Boring',
+        utility: '🏗️ Utility Work',
         gas: '⚠️ Gas Line Service',
-        residential: '🏠 Residential Plumbing',
-        commercial: '🏢 Commercial Service',
-        generator: '⚡ Generator Connection',
-        backflow: '🔧 Backflow Testing',
-        drain: '🔧 Drain Cleaning',
         other: 'Other',
       };
 

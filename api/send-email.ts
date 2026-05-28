@@ -33,12 +33,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     const serviceLabels: Record<string, string> = {
       emergency: '🚨 Emergency Repair',
+      plumbing: '🔧 Plumbing',
+      boring: '🔩 Directional Boring',
+      utility: '🏗️ Utility Work',
       gas: '⚠️ Gas Line Service',
-      residential: '🏠 Residential Plumbing',
-      commercial: '🏢 Commercial Service',
-      generator: '⚡ Generator Connection',
-      backflow: '🔧 Backflow Testing',
-      drain: '🔧 Drain Cleaning',
       other: 'Other',
     };
 

@@ -3,64 +3,37 @@
   <!-- Core Pages -->
   <url><loc>https://bigeasyservicesplumbing.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://bigeasyservicesplumbing.com/services</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/our-promise</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/service-area</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/credentials</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/contact</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/our-promise</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/service-area</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/credentials</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- Service Pages -->
-  <url><loc>https://bigeasyservicesplumbing.com/services/residential-plumbing</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/commercial-services</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/gas-line-fitting</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/standby-generators</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/emergency-service</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/drain-cleaning</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <!-- Service Detail Pages -->
+  <url><loc>https://bigeasyservicesplumbing.com/services/plumbing</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/directional-boring</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/utility-work</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
 
-  <!-- Service-Area Landing Pages: Residential Plumbing -->
-  <url><loc>https://bigeasyservicesplumbing.com/services/residential-plumbing/terrytown</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/residential-plumbing/gretna</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/residential-plumbing/metairie</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/residential-plumbing/belle-chasse</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/residential-plumbing/new-orleans</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/residential-plumbing/kenner</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- SALPs: Plumbing × Cities -->
+  <url><loc>https://bigeasyservicesplumbing.com/services/plumbing/terrytown</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/plumbing/gretna</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/plumbing/metairie</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/plumbing/belle-chasse</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/plumbing/new-orleans</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/plumbing/kenner</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- Service-Area Landing Pages: Commercial Services -->
-  <url><loc>https://bigeasyservicesplumbing.com/services/commercial-services/terrytown</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/commercial-services/gretna</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/commercial-services/metairie</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/commercial-services/belle-chasse</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/commercial-services/new-orleans</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/commercial-services/kenner</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- SALPs: Directional Boring × Cities -->
+  <url><loc>https://bigeasyservicesplumbing.com/services/directional-boring/terrytown</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/directional-boring/gretna</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/directional-boring/metairie</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/directional-boring/belle-chasse</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/directional-boring/new-orleans</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/directional-boring/kenner</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- Service-Area Landing Pages: Gas Line & Fitting -->
-  <url><loc>https://bigeasyservicesplumbing.com/services/gas-line-fitting/terrytown</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/gas-line-fitting/gretna</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/gas-line-fitting/metairie</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/gas-line-fitting/belle-chasse</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/gas-line-fitting/new-orleans</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/gas-line-fitting/kenner</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-
-  <!-- Service-Area Landing Pages: Standby Generators -->
-  <url><loc>https://bigeasyservicesplumbing.com/services/standby-generators/terrytown</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/standby-generators/gretna</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/standby-generators/metairie</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/standby-generators/belle-chasse</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/standby-generators/new-orleans</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/standby-generators/kenner</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-
-  <!-- Service-Area Landing Pages: Emergency Service -->
-  <url><loc>https://bigeasyservicesplumbing.com/services/emergency-service/terrytown</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/emergency-service/gretna</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/emergency-service/metairie</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/emergency-service/belle-chasse</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/emergency-service/new-orleans</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/emergency-service/kenner</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-
-  <!-- Service-Area Landing Pages: Drain Cleaning -->
-  <url><loc>https://bigeasyservicesplumbing.com/services/drain-cleaning/terrytown</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/drain-cleaning/gretna</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/drain-cleaning/metairie</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/drain-cleaning/belle-chasse</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/drain-cleaning/new-orleans</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bigeasyservicesplumbing.com/services/drain-cleaning/kenner</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- SALPs: Utility Work × Cities -->
+  <url><loc>https://bigeasyservicesplumbing.com/services/utility-work/terrytown</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/utility-work/gretna</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/utility-work/metairie</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/utility-work/belle-chasse</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/utility-work/new-orleans</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bigeasyservicesplumbing.com/services/utility-work/kenner</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

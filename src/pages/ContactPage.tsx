@@ -63,7 +63,7 @@ export default function ContactPage() {
     <div>
       <SEOHead
         title="Contact Us — (504) 301-2052"
-        description="Contact Big Easy Services Plumbing for 24/7 emergency plumbing, gas line fitting, drain cleaning, and more in Greater New Orleans. Call (504) 301-2052 or fill out our online service request form."
+        description="Contact Big Easy Services Plumbing for plumbing, directional boring, and utility work in Greater New Orleans. Call (504) 301-2052 or fill out our online service request form."
         canonical="https://bigeasyservicesplumbing.com/contact"
         jsonLd={[generateLocalBusinessSchema()]}
       />
@@ -158,14 +158,12 @@ export default function ContactPage() {
                     <label className="form-label">Service Needed</label>
                     <select className="form-input" value={formData.serviceType}
                       onChange={(e) => setFormData({ ...formData, serviceType: e.target.value })} id="contact-service">
-                      <option value="emergency">🚨 Emergency Repair</option>
-                      <option value="gas">⚠️ Gas Line Service</option>
-                      <option value="residential">🏠 Residential Plumbing</option>
-                      <option value="commercial">🏢 Commercial Service</option>
-                      <option value="generator">⚡ Generator Connection</option>
-                      <option value="backflow">🔧 Backflow Testing</option>
-                      <option value="drain">🔧 Drain Cleaning</option>
-                      <option value="other">Other</option>
+                       <option value="emergency">🚨 Emergency Repair</option>
+                       <option value="plumbing">🔧 Plumbing</option>
+                       <option value="boring">🔩 Directional Boring</option>
+                       <option value="utility">🏗️ Utility Work</option>
+                       <option value="gas">⚠️ Gas Line Service</option>
+                       <option value="other">Other</option>
                     </select>
                   </div>
                   <div style={{ marginBottom: '1rem' }}>
