@@ -90,7 +90,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     const { data, error } = await resend.emails.send({
       from: 'Big Easy Services Plumbing <hello@big-ez.com>',
-      to: ['Jason@founditmarketing.com'],
+      to: ['Info@big-ez.com'],
       replyTo: email || undefined,
       subject: `New Service Request: ${serviceLabel} — ${name}`,
       html: emailHtml,

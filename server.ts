@@ -200,7 +200,7 @@ Here is a pre-optimized premium copywriting template for your review:
 
       const { data, error } = await resend.emails.send({
         from: 'Big Easy Services Plumbing <hello@big-ez.com>',
-        to: ['Jason@founditmarketing.com'],
+        to: ['Info@big-ez.com'],
         reply_to: email || undefined,
         subject: `New Service Request: ${serviceLabel} — ${name}`,
         html: emailHtml,
