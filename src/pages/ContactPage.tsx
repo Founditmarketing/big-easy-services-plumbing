@@ -28,11 +28,35 @@ export default function ContactPage() {
     address: '', details: '', promo: ''
   });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 8000);
+    setLoading(true);
+    setError('');
+
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || 'Failed to send request.');
+      }
+
+      setSubmitted(true);
+      setFormData({ name: '', phone: '', email: '', serviceType: 'emergency', address: '', details: '', promo: '' });
+      setTimeout(() => setSubmitted(false), 8000);
+    } catch (err: any) {
+      setError(err.message || 'Something went wrong. Please call (504) 301-2052 instead.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -160,8 +184,38 @@ export default function ContactPage() {
                     <input className="form-input" placeholder="e.g. BF-GOLD-50OFF" value={formData.promo}
                       onChange={(e) => setFormData({ ...formData, promo: e.target.value })} id="contact-promo" />
                   </div>
-                  <button type="submit" className="btn-primary" style={{ width: '100%', justifyContent: 'center', padding: '1rem' }}>
-                    <Send style={{ width: 18, height: 18 }} /> Request Service
+                  {error && (
+                    <div style={{
+                      background: 'rgba(239,68,68,0.08)',
+                      border: '1px solid rgba(239,68,68,0.2)',
+                      borderRadius: 'var(--radius-md)',
+                      padding: '0.875rem 1rem',
+                      marginBottom: '1rem',
+                      color: '#dc2626',
+                      fontSize: '0.875rem',
+                      lineHeight: 1.5,
+                    }}>
+                      {error}
+                    </div>
+                  )}
+                  <button type="submit" className="btn-primary" disabled={loading} style={{
+                    width: '100%', justifyContent: 'center', padding: '1rem',
+                    opacity: loading ? 0.7 : 1, cursor: loading ? 'not-allowed' : 'pointer'
+                  }}>
+                    {loading ? (
+                      <>
+                        <span style={{
+                          width: 18, height: 18, border: '2px solid rgba(255,255,255,0.3)',
+                          borderTopColor: '#fff', borderRadius: '50%', display: 'inline-block',
+                          animation: 'spin 0.8s linear infinite',
+                        }} />
+                        Sending...
+                      </>
+                    ) : (
+                      <>
+                        <Send style={{ width: 18, height: 18 }} /> Request Service
+                      </>
+                    )}
                   </button>
                 </form>
               )}
