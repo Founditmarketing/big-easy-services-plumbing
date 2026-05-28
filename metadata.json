@@ -1,0 +1,6 @@
+{
+  "name": "Big Easy Overhaul Hub",
+  "description": "Interactive website redesign blueprint and AI copy builder for Big Easy Services Plumbing (B2B, Commercial, and Residential).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
