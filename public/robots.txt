@@ -1,5 +1,50 @@
+# Big Easy Services Plumbing — robots.txt
+# https://bigeasyservicesplumbing.com
+
+# ============================================
+# Standard Web Crawlers
+# ============================================
 User-agent: *
 Allow: /
 Disallow: /api/
 
+# ============================================
+# Sitemap
+# ============================================
 Sitemap: https://bigeasyservicesplumbing.com/sitemap.xml
+
+# ============================================
+# AI / LLM Crawlers
+# ============================================
+# Allow AI crawlers to index our public content
+# for AI search engines and assistant readiness.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ============================================
+# LLMs.txt Reference
+# ============================================
+# See https://bigeasyservicesplumbing.com/llms.txt
+# for structured AI-readable business context.
