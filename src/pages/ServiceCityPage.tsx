@@ -71,7 +71,7 @@ const ServiceCityPage = () => {
       <SEOHead
         title={`${service.title} in ${cityName}, LA`}
         description={content.intro.substring(0, 155)}
-        canonical={`https://bigeasyservicesplumbing.com/services/${slug}/${city}`}
+        canonical={`https://big-ez.com/services/${slug}/${city}`}
         jsonLd={[
           generateServiceSchema(service, cityName),
           generateFAQSchema(content.faqs),

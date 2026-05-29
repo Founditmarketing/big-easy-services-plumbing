@@ -53,7 +53,7 @@ const ServiceDetailPage = () => {
       <SEOHead
         title={service.title}
         description={service.longDescription.substring(0, 155)}
-        canonical={`https://bigeasyservicesplumbing.com/services/${service.slug}`}
+        canonical={`https://big-ez.com/services/${service.slug}`}
         jsonLd={[
           generateServiceSchema(service),
           generateFAQSchema(service.faqs),

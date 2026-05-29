@@ -1,5 +1,5 @@
 # Big Easy Services Plumbing — llms.txt
-# https://bigeasyservicesplumbing.com
+# https://big-ez.com
 # Last Updated: 2026-05-29
 
 > Big Easy Services Plumbing is a licensed, woman-owned plumbing contractor serving Greater New Orleans since 2005. We specialize in plumbing, directional boring, and underground utility work for residential, commercial, and government clients.
@@ -14,7 +14,7 @@
 - Address: 2451 Belle Chasse Hwy., Terrytown, LA 70056
 - Phone: (504) 301-2052
 - Email: info@big-ez.com
-- Website: https://bigeasyservicesplumbing.com
+- Website: https://big-ez.com
 
 ## Licenses & Certifications
 
@@ -46,17 +46,17 @@
 ### Plumbing
 Full-service residential and commercial plumbing including leak detection & repair, water heater installation, pipe replacement & repiping, sewer & drain services (hydro jetting, camera inspection, trenchless repair), backflow prevention & testing, gas line installation & fitting, and 24/7 emergency response. Licensed under Master Plumber LMP #5923 and Natural Gas Fitter LMNGF #10369.
 
-- URL: https://bigeasyservicesplumbing.com/services/plumbing
+- URL: https://big-ez.com/services/plumbing
 
 ### Directional Boring
 Horizontal directional drilling (HDD) for trenchless underground utility installation beneath roads, driveways, sidewalks, waterways, and landscaping. Services include water & sewer line installation, gas line boring, conduit & cable installation, and road/driveway crossings — all with minimal surface disruption.
 
-- URL: https://bigeasyservicesplumbing.com/services/directional-boring
+- URL: https://big-ez.com/services/directional-boring
 
 ### Utility Work
 Complete underground utility infrastructure including water main installation, sewer line construction, gas line infrastructure, stormwater & drainage systems, utility relocation, and new construction site development. Licensed for residential, commercial, municipal, and government projects.
 
-- URL: https://bigeasyservicesplumbing.com/services/utility-work
+- URL: https://big-ez.com/services/utility-work
 
 ## Service Area
 
@@ -99,9 +99,9 @@ Big Easy Services is registered and qualified for federal, state, and municipal 
 
 - Emergency Line: (504) 301-2052 (24/7)
 - Email: info@big-ez.com
-- Service Request: https://bigeasyservicesplumbing.com/contact
+- Service Request: https://big-ez.com/contact
 - Address: 2451 Belle Chasse Hwy., Terrytown, LA 70056
 
 ## Sitemap
 
-- https://bigeasyservicesplumbing.com/sitemap.xml
+- https://big-ez.com/sitemap.xml

@@ -43,7 +43,7 @@ const ServicesPage = () => {
       <SEOHead
         title="Professional Plumbing Services"
         description="Big Easy Services Plumbing offers expert plumbing services in Greater New Orleans — emergency repairs, gas line fitting, drain cleaning, standby generator connections, backflow testing, and commercial plumbing. Licensed Master Plumber. Call (504) 301-2052."
-        canonical="https://bigeasyservicesplumbing.com/services"
+        canonical="https://big-ez.com/services"
         jsonLd={[generateLocalBusinessSchema()]}
       />
       {/* ============================

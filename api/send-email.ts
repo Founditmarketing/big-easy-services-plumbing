@@ -81,7 +81,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
           </table>
         </div>
         <div style="background: #0B2240; padding: 16px 32px; text-align: center;">
-          <p style="color: rgba(255,255,255,0.5); margin: 0; font-size: 12px;">Sent from bigeasyservicesplumbing.com contact form</p>
+          <p style="color: rgba(255,255,255,0.5); margin: 0; font-size: 12px;">Sent from big-ez.com contact form</p>
         </div>
       </div>
     `;

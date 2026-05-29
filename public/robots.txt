@@ -1,5 +1,5 @@
 # Big Easy Services Plumbing — robots.txt
-# https://bigeasyservicesplumbing.com
+# https://big-ez.com
 
 # ============================================
 # Standard Web Crawlers
@@ -11,7 +11,7 @@ Disallow: /api/
 # ============================================
 # Sitemap
 # ============================================
-Sitemap: https://bigeasyservicesplumbing.com/sitemap.xml
+Sitemap: https://big-ez.com/sitemap.xml
 
 # ============================================
 # AI / LLM Crawlers
@@ -46,5 +46,5 @@ Allow: /
 # ============================================
 # LLMs.txt Reference
 # ============================================
-# See https://bigeasyservicesplumbing.com/llms.txt
+# See https://big-ez.com/llms.txt
 # for structured AI-readable business context.

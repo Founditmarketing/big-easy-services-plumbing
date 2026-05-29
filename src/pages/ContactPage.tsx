@@ -64,7 +64,7 @@ export default function ContactPage() {
       <SEOHead
         title="Contact Us — (504) 301-2052"
         description="Contact Big Easy Services Plumbing for plumbing, directional boring, and utility work in Greater New Orleans. Call (504) 301-2052 or fill out our online service request form."
-        canonical="https://bigeasyservicesplumbing.com/contact"
+        canonical="https://big-ez.com/contact"
         jsonLd={[generateLocalBusinessSchema()]}
       />
       {/* ======== PHOTO HERO ======== */}

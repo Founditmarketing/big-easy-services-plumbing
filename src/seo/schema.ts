@@ -5,7 +5,7 @@
 
 import { BRAND_INFO, LA_LICENSES } from '../data';
 
-const DOMAIN = 'https://bigeasyservicesplumbing.com';
+const DOMAIN = 'https://big-ez.com';
 
 /* ============================================
    LOCAL BUSINESS SCHEMA

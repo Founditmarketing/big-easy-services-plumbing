@@ -29,7 +29,7 @@ export default function CredentialsPage() {
       <SEOHead
         title="Licenses & Certifications"
         description="Big Easy Services Plumbing holds Louisiana Licensed Master Plumber (LMP #5923), Licensed Natural Gas Fitter (LMNGF #10369), and multiple certifications. Woman-owned, TWIC & DBIDS cleared. Verified credentials for Greater New Orleans."
-        canonical="https://bigeasyservicesplumbing.com/credentials"
+        canonical="https://big-ez.com/credentials"
         jsonLd={[generateLocalBusinessSchema()]}
       />
       {/* ======== PHOTO HERO ======== */}

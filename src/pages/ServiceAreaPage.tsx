@@ -38,7 +38,7 @@ export default function ServiceAreaPage() {
       <SEOHead
         title="Service Area — Greater New Orleans"
         description="Big Easy Services Plumbing serves Greater New Orleans — Jefferson Parish, Orleans Parish, and St. Bernard Parish. Rapid-dispatch emergency plumbing in Terrytown, Gretna, Metairie, Belle Chasse, Downtown NOLA & more. Call (504) 301-2052."
-        canonical="https://bigeasyservicesplumbing.com/service-area"
+        canonical="https://big-ez.com/service-area"
         jsonLd={[generateLocalBusinessSchema()]}
       />
       {/* ======== PHOTO HERO ======== */}

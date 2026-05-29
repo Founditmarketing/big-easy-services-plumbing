@@ -49,7 +49,7 @@ export default function PromisePage() {
       <SEOHead
         title="Our Guarantees & Promises"
         description="Big Easy Services Plumbing backs every job with 4 ironclad guarantees — $50 On-Time Guarantee, upfront pricing, licensed workmanship warranty, and a courtesy commitment. Serving Greater New Orleans since 2005."
-        canonical="https://bigeasyservicesplumbing.com/our-promise"
+        canonical="https://big-ez.com/our-promise"
         jsonLd={[generateLocalBusinessSchema()]}
       />
       {/* ======== PHOTO HERO ======== */}
