@@ -5,6 +5,7 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
+import { Analytics } from '@vercel/analytics/react';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import ServicesPage from './pages/ServicesPage';
@@ -32,6 +33,7 @@ export default function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+      <Analytics />
     </HelmetProvider>
   );
 }
