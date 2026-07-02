@@ -37,10 +37,15 @@ export default function ContactPage() {
     setError('');
 
     try {
-      const response = await fetch('/api/send-email', {
+      const response = await fetch('https://www.founditos.com/api/contact-form/edb62a31-399a-44bb-8671-cab9a357eea1', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          message: `Service: ${formData.serviceType}\nAddress: ${formData.address}\nPromo: ${formData.promo || 'None'}\n\n${formData.details}`,
+        }),
       });
 
       const result = await response.json();
